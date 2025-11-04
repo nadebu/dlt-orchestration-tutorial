@@ -15,3 +15,9 @@ _local
 # ignore duckdb
 *.duckdb
 *.wal
+# ignore log files
+*.log
+# ignore airflow config and db files
+airflow.db
+standalone_admin_password.txt
+airflow-webserver.pid
